@@ -11,8 +11,10 @@
     <title>Home Page</title>
 </head>
 <body>
-<h4>Test here
-</h4>
-
+<form action="/hello" method="post">
+    login<input type="text" name="username" id="username"/>   </br>
+    password<input type="password" name="password" id="password"/></br>
+    <input type="submit" name="submit" id="submit"/>
+</form>
 </body>
 </html>
